@@ -7,21 +7,27 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MedicoRx_V2.Models
+namespace MedicosRX.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Medicine
+    public partial class Doctor
     {
-        public int MId { get; set; }
-        public string MedicineName { get; set; }
-        public string Formula { get; set; }
-        public Nullable<int> DisseaseId { get; set; }
-        public string Comment { get; set; }
+        public int DoctorId { get; set; }
+        public string Name { get; set; }
+        public string EmailId { get; set; }
+        public string Gender { get; set; }
+        public string Qualification { get; set; }
+        public string Mobile { get; set; }
+        public string Specialist { get; set; }
+        public string Photo { get; set; }
+        public Nullable<System.DateTime> Date_of_joining { get; set; }
+        public string Address { get; set; }
+        public string Timing { get; set; }
         public Nullable<int> CreatedBy { get; set; }
         public Nullable<System.DateTime> CreationDate { get; set; }
         public Nullable<int> UpdatedBy { get; set; }
-        public Nullable<System.DateTime> Updationdate { get; set; }
+        public Nullable<System.DateTime> UpdationDate { get; set; }
     }
 }

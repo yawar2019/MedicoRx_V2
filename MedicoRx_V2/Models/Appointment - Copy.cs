@@ -7,19 +7,21 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MedicoRx_V2.Models
+namespace MedicosRX.Models
 {
     using System;
+    using System.Collections.Generic;
     
-    public partial class sp_get_Medicine_Result
+    public partial class Appointment
     {
-        public int MId { get; set; }
-        public string MedicineName { get; set; }
-        public string Formula { get; set; }
-        public string Comment { get; set; }
+        public int AppointmentId { get; set; }
+        public Nullable<int> PId { get; set; }
+        public Nullable<int> Did { get; set; }
+        public Nullable<System.DateTime> DateOfAppointment { get; set; }
+        public string TimeOfAppointment { get; set; }
+        public Nullable<System.DateTime> CreationDate { get; set; }
         public Nullable<int> CreatedBy { get; set; }
         public Nullable<int> UpdatedBy { get; set; }
-        public Nullable<int> DiseasesId { get; set; }
-        public string DisseaseName { get; set; }
+        public Nullable<System.DateTime> UpdationDate { get; set; }
     }
 }

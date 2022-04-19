@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MedicosRX.Models
+namespace MedicoRx_V2.Models
 {
     using System;
     using System.Collections.Generic;

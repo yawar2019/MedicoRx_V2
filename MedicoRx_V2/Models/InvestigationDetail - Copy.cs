@@ -7,14 +7,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace MedicoRx_V2.Models
+namespace MedicosRX.Models
 {
     using System;
     using System.Collections.Generic;
     
-    public partial class Role
+    public partial class InvestigationDetail
     {
-        public int RoleId { get; set; }
-        public string RoleName { get; set; }
+        public int Id { get; set; }
+        public string Invistagation { get; set; }
     }
 }
